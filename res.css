@@ -1,35 +1,23 @@
-*{
-    margin-top: 0;
-    padding: 0;
-    
-}
-.body {
-    background-color:rgb(126, 122, 122);
-}
+/* Responsive Styles for Smaller Screens */
+@media (max-width: 768px) {
+    .top-section {
+        flex-direction: column;
+        align-items: center;
+    }
 
-.click{
-    width: 500px;
-}
-@media (max-width:768px){
+    .image-div, .side-detail-div {
+        width: 90%;
+        margin: 10px 0;
+    }
 
-    .top-section{
-        display: block;
+    .click {
+        text-align: center;
+        padding-right: 20px;
+        width: auto;
     }
-    .side-detail-div{
-        width: 290px;
-        margin-right: 20px;
-        
+
+    footer {
+        padding: 10px;
+        margin-right: 10px;
     }
-    .inner-div{
-        margin-left: 20px;
-        display: block;
-    }
-    .click{
-padding-right: 20px;
-width: auto;
-text-align: center;
-    }
-    footer{
-        margin-right: 30px;
-    }
-    }
+}
